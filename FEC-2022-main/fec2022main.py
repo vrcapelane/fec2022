@@ -19,7 +19,7 @@ contadorDeOlhosAux = 0
 contadorDeFacesAux = 0
 
 # taxa de amostragem
-taxa = 64
+taxa = 80
 
 # logica de detecção
 while not cv2.waitKey(taxa) & 0xFF == ord("q"):
